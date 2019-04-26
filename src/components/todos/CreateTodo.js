@@ -30,16 +30,4 @@ class CreateTodo extends Component {
   }
 
 
-            <input
-          type="text"
-          onChange={this.handleChange} value={this.state.text}/>
-          </p>
-          <input type="submit" />
-       </form>
-       {this.state.text}
-     </div>
-   );
-  }
-};
- 
 export default CreateTodo;
